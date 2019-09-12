@@ -1,0 +1,85 @@
+body, html {
+    border-left: solid bisque 20px;
+    border-right: solid bisque 20px;
+    background-color: bisque
+}
+
+.nav-bar {
+    background-color: lightgreen;
+}
+
+.about-us {
+    position: relative;
+    left: 100px;
+}
+
+.contact {
+    position: relative;
+    left: 200px;
+}
+
+.header {
+    position: relative;
+    font-size: 30px;
+    border-top: solid bisque 20px;
+    left: 460px;
+}
+
+img {
+    margin: 10px;
+    padding-left: 375px;
+}
+
+main {
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin: 15px;
+    color: brown;
+}
+
+.paragraph-1 {
+    Border-bottom: solid black 2px;
+    padding: 20px;
+}
+
+.paragraph-2 {
+    Border-bottom: solid black 2px;
+    padding: 20px;
+}
+
+.paragraph-3 {
+    padding: 20px;
+}
+
+h1 { 
+    font-size: 40px;
+    background-color: lightgreen;
+    padding-left: 250px;
+}
+
+ul {
+    border-left: solid black 2px;
+    margin-left: 325px;
+}
+
+.call-us {
+    padding-left: 500px;
+}
+
+.table {
+    font-size: 40px;
+    border: solid black 2px;
+    margin-left: 375px;
+}
+
+.row-1 {
+    border: solid black 1px;
+}
+
+.row-2 {
+    padding-left: 20px;
+}
+
+
+
