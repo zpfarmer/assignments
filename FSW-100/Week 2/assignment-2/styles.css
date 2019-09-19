@@ -1,0 +1,31 @@
+.heading {
+    color: darkgreen;
+}
+
+h1, h2 {
+    font-family: Georgia;
+    text-align: center
+}
+
+.body {
+    font-size: 25px;
+    
+}
+
+a {
+    text-decoration: none
+}
+
+.footer {
+    text-transform: uppercase
+}
+
+a.hover {
+    text-decoration: underline
+}
+
+img {
+    float: left;
+    height: 220px;
+}
+
