@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contact-us">
+        <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+
+        <div class="contact-container">
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your name..">
+
+                <label for="town">Town</label>
+                <select id="town" name="town">
+                    <option value="Mountain Home">Mountain Home</option>
+                    <option value="Mountain Home">Gassville</option>
+                    <option value="Mountain Home">Cotter</option>
+                    <option value="Mountain Home">Lakeview</option>
+                    <option value="Mountain Home">Henderson</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px">
+                </textarea>
+            </form>
+        </div>
+        <footer class="footer">
+            <p>Created by Zach Farmer</p>
+            <p>Contact information: <a href="mailto:zpfarmer@yahoo.com">zpfarmer@yahoo.com</a>.</p>
+        </footer>
+</body>
+</html>
