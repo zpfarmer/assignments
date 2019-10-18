@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    text-orientation: center;
+    position: fixed;
+    left: 625px;
+}
+
+p {
+    margin: 20px;
+    position: relative
+
+}
+
+body {
+    width: 550px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+body {
+    background-color: aqua
+}
+
+input { 
+    background-color: antiquewhite
+}
+
+.picture {
+    float:left;
+    margin: 10px;
+}
+
