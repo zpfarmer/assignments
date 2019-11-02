@@ -24,8 +24,8 @@ if (person.age >= 18){
 } else {
   console.log("not Allowed in")
 }
-
-if (person.name = "B"){
+var firstChar = person.charAt(0)
+if (firstChar = "B"){
   console.log("Allowed in")
 }
 
