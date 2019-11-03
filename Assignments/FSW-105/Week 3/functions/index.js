@@ -18,22 +18,25 @@ function largeNumber(a, b, c){
 }
 console.log(largeNumber(144, 248, 863))
 
-/*function evenOdd(num3){
-    if (num3 % 2 === 0){
-        return "Even"
+function evenOdd(a){
+    if (a % 2 === 0){
+        return "even";
     } else {
-        return "Odd"
-    } 
-}
-var num3 = 10
-console.log(num3)  */
-
-function evenOdd(number){
-    if (number % 2 === 0) {
-        return true;
-    } else {
-        return false;
+        return "odd";
     }
 }
-var number = 10
-console.log(number)
+console.log(evenOdd(17))
+
+
+var n = myString.length
+function myString(n){
+    var myString = "Hello World";
+    if (n < 20){
+        return myString + " " + myString
+    } else if (n > 20) {
+        return firstHalf(myString)
+    }
+}
+
+console.log(myString(n))
+
