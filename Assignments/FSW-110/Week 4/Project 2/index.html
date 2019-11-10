@@ -7,25 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <form>
-            First number: <input type="text" number="fnumber"><br>
-            Second number: <input type="text" number="snumber"><br>
-            <input type="submit" value="Submit">
+    <div name="calculator">
+        <form name="sum">
+            First number: <input type="text" name="txtnum1">
+            <br>
+            Second number: <input type="text" name="txtnum2">
+            <br>
+            Result : <input type="text" name="txtres">
+            <br>
+            <input type="button" value="Calculate" onClick="sumValues()">
+
         </form>
     </div>
     <div>
-        <form>
-            First number: <input type="text" number="fnumber"><br>
-            Second number: <input type="text" number="snumber"><br>
-            <input type="submit" value="Submit">
+        <form id="sub">
+            First number: <input type="text" number="txtnum3">
+            <br>
+            Second number: <input type="text" number="txtnum4">
+            <br>
+            Result : <input type="text" name="txtres">
+            <br>
+            <input type="button" value="Calculate" onClick="subValues()">
         </form>
     </div>
     <div>
-        <form>
-            First number: <input type="text" number="fnumber"><br>
-            Second number: <input type="text" number="snumber"><br>
-            <input type="submit" value="Submit">
+        <form name="mul">
+            First number: <input type="text" number="txtnum1">
+            <br>
+            Second number: <input type="text" number="txtnum2">
+            <br>
+            Result : <input type="text" name="txtres">
+            <br>
+            <input type="button" value="Calculate" onClick="mulValues()">
         </form>
     </div>
     <script src="index.js"></script>

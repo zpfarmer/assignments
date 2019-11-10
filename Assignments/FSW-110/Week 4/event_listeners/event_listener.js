@@ -26,24 +26,17 @@ function changeOrange() {
 }
 document.body.addEventListener("wheel", changeOrange)
 
-const input = document.querySelector('div');
-const log = document.getElementById('box');
-
-box.onkeypress = function(){
-    var keyCode = window.event ? window.event.keyCode : event.which;
-}
-
-function changeColor (keyCode){
-    if (keyCode == 66){
+function keypress(e){
+    if (event.which == "66"){
         box.style.backgroundColor = "blue"
-    } else if (keyCode == 82) {
-        document.box.style.backgroundColor = "red"
-    } else if (keyCode == 89) {
+    } else if (keyCode == "82") {
+        style.backgroundColor = "red"
+    } else if (keyCode == "89") {
         document.box.style.backgroundColor = "yellow"
-    } else if (keyCode == 71) {
-        document.box.style.backgroundColor = "green"
-    } else if (keyCode == 79) {
-        document.box.style.backgroundColor = "orange"
+    } else if (keyCode == "71") {
+        box.style.backgroundColor = "green"
+    } else if (keyCode == "79") {
+        box.style.backgroundColor = "orange"
     }
 }
-
+document.body.addEventListener("onkeydown", keypress(e))
