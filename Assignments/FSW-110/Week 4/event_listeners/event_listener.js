@@ -39,4 +39,4 @@ function keypress(e){
         box.style.backgroundColor = "orange"
     }
 }
-document.body.addEventListener("onkeydown", keypress(e))
+document.getElementById("box").addEventListener("keypress", keypress(e))

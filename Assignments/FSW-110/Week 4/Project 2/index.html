@@ -5,42 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <div name="calculator">
-        <form name="sum">
-            First number: <input type="text" name="txtnum1">
-            <br>
-            Second number: <input type="text" name="txtnum2">
-            <br>
-            Result : <input type="text" name="txtres">
-            <br>
-            <input type="button" value="Calculate" onClick="sumValues()">
-
-        </form>
-    </div>
+<body class="calculator">
     <div>
-        <form id="sub">
-            First number: <input type="text" number="txtnum3">
+        <form name="sum" class="addition">
+            First number: <input id="box" type="text" name="txtnum1">
             <br>
-            Second number: <input type="text" number="txtnum4">
+            Second number: <input id="box" type="text" name="txtnum2">
             <br>
-            Result : <input type="text" name="txtres">
+            Result : <input id="box" type="text" name="txtres">
             <br>
-            <input type="button" value="Calculate" onClick="subValues()">
+            <input id="calculate" type="button" value="Calculate" onClick="sumValues()">
         </form>
     </div>
-    <div>
-        <form name="mul">
-            First number: <input type="text" number="txtnum1">
+    <div>  
+        <form name="sub" class="subtract">
+            First number: <input id="box" type="text" name="txtnum3">
             <br>
-            Second number: <input type="text" number="txtnum2">
+            Second number: <input id="box" type="text" name="txtnum4">
             <br>
-            Result : <input type="text" name="txtres">
+            Result : <input id="box" type="text" name="txtres">
             <br>
-            <input type="button" value="Calculate" onClick="mulValues()">
+            <input id="calculate" type="button" value="Calculate" onClick="subValues()">
         </form>
     </div>
+    <div>   
+        <form name="mul" class="multiply">
+            First number: <input id="box" type="text" name="txtnum5">
+            <br>
+            Second number: <input id="box" type="text" name="txtnum6">
+            <br>
+            Result : <input id="box" type="text" name="txtres">
+            <br>
+            <input id="calculate" type="button" value="Calculate" onClick="mulValues()">
+        </form>
+    </div>
+    
+    
     <script src="index.js"></script>
 </body>
 </html>

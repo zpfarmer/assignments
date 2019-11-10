@@ -1,0 +1,15 @@
+body, div {
+    padding: 25px;
+    background-color: lightgray
+}
+
+#box {
+    display: flex;
+    text-align: center;
+    background-color: burlywood;
+    border: 2px solid grey;
+}
+
+#calculate{
+    background-color: lightskyblue;
+}

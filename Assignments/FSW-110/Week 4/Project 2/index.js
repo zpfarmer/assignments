@@ -12,6 +12,7 @@ function subValues(num3, num4){
     num3=Number(document.sub.txtnum3.value);
     num4=Number(document.sub.txtnum4.value);
     res=num3-num4;
+    
     document.sub.txtres.value=res;
 }
 
