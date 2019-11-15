@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form name="passenger">
+        First Name: <input type="text" name="firstName">
+        <br>
+        Last Name: <input type="text" name="lastName">
+        <br>
+        Age: <input type="number" name="age">
+        <br>
+        
+        Gender:
+    
+        Male <input type="radio" name="gender" value="Male">
+        Female <input type="radio" name="gender" value="Female">
+        <br>
+
+        Destination <select name="city">
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Denver">Denver</option>
+        </select>
+
+        <br>
+        Dietary Restrictions(check all that apply) 
+        <br>
+        Vegetartian: <input type="checkbox" value="Vegetartian" name="restrictions">
+        Kosher: <input type="checkbox" value="Kosher" name="restrictions">
+        Lactose Free: <input type="checkbox" value="Lactose Free" name="restrictions">
+        Gluten Free: <input type="checkbox" value="Gluten Free" name="restrictions">
+        <br>
+        <button>Submit</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
