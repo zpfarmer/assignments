@@ -1,0 +1,12 @@
+body {
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+.container {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px
+}
