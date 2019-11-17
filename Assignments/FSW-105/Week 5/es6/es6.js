@@ -62,12 +62,6 @@ console.log(doMathSum(7, 4))
 const produceProcduct = (a, b) => { return a * b}
 console.log(produceProcduct(4, 2))
 
-let aName = 'Janice';
-console.log(`Hi ${aName}!
-Welcome to Hawaii.
-I hope you enjoy your stay. Please ask the president of Hawaii if you need a
-nything`)
-
 const firstName = 'Jane'
 const secondName = 'Doe'
 let secondAge = 100
