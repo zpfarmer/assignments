@@ -1,0 +1,52 @@
+html {
+    text-align: center;
+    background-color: burlywood;
+}
+
+body {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    color: darkslategrey
+}
+
+input {
+    cursor: pointer;
+    text-align: center;
+    padding-top: 30px;
+    width: 50%;
+    height: 60px;
+    font-size: 20px;
+    border: solid 1px black
+}
+
+ul li:nth-child(odd) {
+    cursor: pointer;
+    background-color: #555;
+    border: solid 1px black
+}
+
+ul li:nth-child(even) {
+    cursor: pointer;
+    background-color: #888;
+}
+
+input:focus {
+    outline: none;
+}
+
+li {
+    text-align: center;
+    font-size: 40px;
+    list-style: none;
+    margin: 10px;
+}
+
+li:hover {
+    text-decoration: line-through;
+    background-color: red;
+}
