@@ -1,0 +1,69 @@
+{"menu": {
+    "drinks": [
+        {
+            "name":"coke",
+            "size": 20,
+            "calories": 160,
+            "description": "A refreshing, carbonated beverage"
+        },
+        {
+            "name":"Raspberry Lemonade",
+            "size": 20,
+            "calories": 200,
+            "description": "A lemonade with raspberry flavor"
+        }
+    ],
+    "appetizers": [
+        {
+            "name":"Mozzarella Sticks",
+            "ingredients":["Mozzarella Cheese", "breadcrumbs", "Oil"],
+            "description":"Mozzarella cheese coated in seasoned breadcrumbs and fried until golden brown"
+        },
+        {
+            "name":"Seafood Stuffed Mushrooms",
+            "ingredients":["Portabella Mushrooms", "scallops", "crab", "shrimp"],
+            "description":"6 Portabella Mushrooms stuffed and baked with an assortment of seafood. Served with lemons"
+        },
+        {
+            "name":"Calamari",
+            "ingredients":["Squid", "Flour", "Lemon juice"],
+            "description":"Deep fried squid coated in flour with a hint of lemon and black pepper"
+        }   
+    ], 
+    "cold sandwiches": [
+        {
+            "name":"Cuban",
+            "ingredients":["Cuban bread", "ham", "roasted pork", "swiss cheese", "pickles", "mustard"],
+            "description":"A classic Cuban Sub sandwich with and assortment of Cuban meats"
+        },
+        {
+            "name":"Classic Italian Sub",
+            "ingredients":["Italian Herb bread", "salami", "mortadella", "capicolla", "ham", "provalone"],
+            "description":"A classic Italian Sub with an assortment of Italian meats"
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "name":"Meatball Sub",
+            "ingredients":["Italian Herb bread", "meatballs", "marinara"],
+            "description":"A savory, toasted meatball and marinara sub"
+        },
+        {
+            "name":"Philly Cheesesteak",
+            "ingredients":["Cheesy Garlic Bread", "ribeye", "provalone"],
+            "description":"The favorite Philly Cheesesteak with thinnly sliced ribeye and plenty of cheese to satisfy everyone!"
+        }
+    ],
+    "desserts": [
+        {
+            "name":"Cheesecake",
+            "ingredients":["creamcheese", "butter", "vanilla", "eggs", "graham cracker"],
+            "description":"Crushed graham cracker with thick layer of creamcheese, eggs, and sugar"
+        },
+        {
+            "name":"Apple Pie",
+            "ingredients":["Apples", "butter", "sugar", "cinnamon", "Flour", "whipped cream"],
+            "description":"Warm baked pastry filled with sweat apples"
+        }
+    ]
+}}
