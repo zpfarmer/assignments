@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Spots from './vacation.js'
+import vacationSpots from './vacationSpots'
 
 function App() {
+  const vacationComponents = vacationSpots.map(vacation => <Spots key={Spots.id} place={vacation.place} price={vacation.price} time={vacation.timeToGo} />)
+  const price = vacationSpots.price
+  // if (price < 500){
+  //   price = '$'
+  // } else if (price > 500 && price < 1000){
+  //   price = '$$'
+  // } else {price = '$$$'}
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Spots">
+      {vacationComponents}
     </div>
-  );
+  )
 }
+
 
 export default App;
