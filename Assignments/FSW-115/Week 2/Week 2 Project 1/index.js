@@ -69,20 +69,20 @@ const people = [
           }
         }
         ]
-let string = JSON.stringify(people)
-document.getElementById("characters").innerHTML = string
+document.getElementById('list').value += people
 
-let container = getElementById("characters");
-for(i = 0; people.length; i++){
-    container.innerHTML+='<div class="items item" + i + ""></div>' 
-}
+// let container = getElementById("characters");
+// for(i = 0; people.length; i++){
+//     container.innerHTML+='<div class="items item" + i + ""></div>' 
+//}
 
 // let styleList = people.length;
 // for (i = 0; i < people.length; i++) {
 //     styleList.style.textAlign = "center"
 //     styleList.style.color = "red"
 //}
-// let first = people[0]
-// let second = people[1]
-// let third = people[2]
+let first = people[0]
+let second = people[1]
+let third = people[2]
+
 
