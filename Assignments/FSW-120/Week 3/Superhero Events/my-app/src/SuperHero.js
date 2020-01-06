@@ -1,15 +1,19 @@
 import React from 'react'
-let data = require("./data.json")
+//let data = require("./data.json")
 
 //console.log(data)
 
-let hero = React.createClass({
-    render: function() {
-    return (
-        <div className="App">
-            <h1>{this.props.name}</h1>
+
+
+function List(props){
+    return(
+        <div className="container">
+            <h1>Name: {props.name}</h1>
+            <h3>Show: {props.show}</h3>
+            <h3>Catchphrase: {props.catchphrase}</h3>
+            <hr></hr>
         </div>
     )
-}})
+}
 
-export default hero
+export default List
