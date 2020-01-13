@@ -32,7 +32,7 @@ class Form extends React.Component {
             birthPlace: "",
             phoneNumber: "",
             favFood: "",
-            aboutYou: ""
+            about: ""
         })
       }
       
@@ -68,8 +68,8 @@ class Form extends React.Component {
                 value={this.state.firstName}
                 name="firstName" 
                 minLength="3"
-                required
-                onChange={this.handleChange} 
+                onChange={this.handleChange}
+                required 
                 placeholder="First Name"
                 />
               
@@ -127,12 +127,12 @@ class Form extends React.Component {
                 minLength="3"
                 required
                 onChange={this.handleChange} />
-              <br />
+              
               <textarea 
                 className="textArea"
                 type="text" 
-                value={this.state.aboutYou} 
-                name="aboutYou"
+                value={this.state.about} 
+                name="about"
                 placeholder="Tell us about yourself" 
                 minLength="50"
                 required
@@ -148,11 +148,11 @@ class Form extends React.Component {
             <h2 className="badge">Badge:</h2>
             <div className="results">
             <p className="result">Name: {this.state.firstName} {this.state.lastName}</p>
-            <p className="result">Phone: {this.state.phoneNumber}</p><br />
+            <p className="result">Phone: {this.state.phoneNumber}</p>
             <p className="result">Place of Birth: {this.state.birthPlace}</p>
             <p className="result">Favorite food: {this.state.favFood}</p>
             <p className="result">Email: {this.state.email}</p><br />
-            <textarea className="textResult">{this.state.aboutYou}</textarea>
+            <textarea className="textResult">{this.state.about}</textarea>
             </div>
             </div>
           </main>
