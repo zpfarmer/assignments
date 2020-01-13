@@ -1,18 +1,22 @@
 .container {
     width: 800px;
-    height: 600px;
+    height: 400px;
     text-align: center;
     border: solid 3px black;
     border-radius: 2%;
+    margin-left: 25%;
     
 }
 
 .input {
-    margin: 50px;
+    width: 230px;
+    margin: 15px;
     border: solid 2px black;
 }
 
 .textArea {
+    height: 150px;
+    width: 489px;
     border: solid 2px black;
     margin: auto;
 }
@@ -23,9 +27,12 @@
 }
 
 .resultContainer {
+    text-align: center;
     border: solid 2px gray;
     border-radius: 2%;
     width: 800px;
+    height: 400px;
+    margin-left: 25%;
 }
 
 .badge {
@@ -37,7 +44,7 @@
 }
 
 .result {
-    margin: 50px;
+    margin: 15px;
     text-align: center;
     font-weight: bold;
 
@@ -46,9 +53,15 @@
 .results {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 20%;
+    grid-gap: 10px;
 }
 
 .textResult {
+    margin-left: 30%;
     text-align: center;
-
+    border: solid 3px black;
+    width: 500px;
+    height: 200px;
 }

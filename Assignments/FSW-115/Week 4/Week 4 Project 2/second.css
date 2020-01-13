@@ -1,0 +1,26 @@
+body {
+    background-color: lightsalmon;;
+}
+
+@media only screen and (max-width: 750px){
+    h1 {
+        text-align: left;
+        font-weight: 100;
+        font-style: italic;
+        padding-left: 30px
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    h1 {
+        text-align: center;
+        padding: 20px;
+        border: solid black 1px;
+        margin: 100px
+    };
+}
+
+button {
+    margin-bottom: 30px;
+    margin-left: 45%;
+}

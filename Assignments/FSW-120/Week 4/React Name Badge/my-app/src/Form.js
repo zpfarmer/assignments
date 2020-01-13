@@ -127,7 +127,7 @@ class Form extends React.Component {
                 minLength="3"
                 required
                 onChange={this.handleChange} />
-              
+              <br />
               <textarea 
                 className="textArea"
                 type="text" 
@@ -148,7 +148,7 @@ class Form extends React.Component {
             <h2 className="badge">Badge:</h2>
             <div className="results">
             <p className="result">Name: {this.state.firstName} {this.state.lastName}</p>
-            <p className="result">Phone: {this.state.phoneNumber}</p>
+            <p className="result">Phone: {this.state.phoneNumber}</p><br />
             <p className="result">Place of Birth: {this.state.birthPlace}</p>
             <p className="result">Favorite food: {this.state.favFood}</p>
             <p className="result">Email: {this.state.email}</p><br />
