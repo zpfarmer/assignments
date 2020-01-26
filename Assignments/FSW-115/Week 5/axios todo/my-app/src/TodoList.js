@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import TodoComponent from './TodoComponent'
 import axios from 'axios'
 
+
 const todoFormPost = document.getElementById("todoForm")
 
 todoFormPost.addEventListener("submit", function(){
@@ -18,13 +19,11 @@ todoFormPost.addEventListener("submit", function(){
 }
 )
 
+const deleteButton = document.getElementById("delete")
 
+deleteButton.addEventListener("click", function(){
 
-const todoFormDelete = document.getElementById("delete")
-
-todoFormDelete.addEventListener("click", function(){
-
-    axios.delete("https://api.vschool.io/zachfarmer/todo/5e24944310b975756db4e92c")
+    axios.delete("https://api.vschool.io/zachfarmer/todo/5e250596241fcb274d5f7c1f")
         .then(response => console.log(response.data))
         .catch(error => console.log(error))
 }
