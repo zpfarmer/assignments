@@ -12,7 +12,6 @@ const Container = styled.div`
     color: ${props => props.color};
     text-align: ${props => props.textAlign};
     font-size: ${props => props.fontSize};
-    border-radius: ${props => props.borderRadius}
     margin: 30px;
     padding: 20px;
     overflow: hidden;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './newTweet.css'
-//import TweetPreview from './TweetPreview'
+
 
 function NewTweet(){
     return(

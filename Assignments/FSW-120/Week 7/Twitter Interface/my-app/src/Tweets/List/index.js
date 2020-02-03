@@ -8,6 +8,8 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 30px;
+    padding: 30px
 `
 
 function List() {
@@ -20,7 +22,7 @@ function List() {
                 authorName='Zach Farmer'
                 details='This project is actually really hard!'
                 background='lightcoral'
-                color='white'
+                color='black'
                 id='1' />
             <TweetPreview
                 fontSize='15px'
@@ -29,7 +31,7 @@ function List() {
                 authorName='Jack Smith'
                 details='Will we ever get to the end?'
                 background='lightblue'
-                color='white'
+                color='black'
                 id='2' />
             <TweetPreview
                 fontSize='15px'
@@ -55,7 +57,7 @@ function List() {
                 authorName='Ashley Cheshier'
                 details='This project is actually really hard!'
                 background='lightcoral'
-                color='white'
+                color='black'
                 id='5' />
             <TweetPreview
                 fontSize='15px'
@@ -64,7 +66,7 @@ function List() {
                 authorName='Ashley Cheshier'
                 details='This project is actually really hard!'
                 background='lightblue'
-                color='white'
+                color='black'
                 id='5' />
         </Container>
     )
