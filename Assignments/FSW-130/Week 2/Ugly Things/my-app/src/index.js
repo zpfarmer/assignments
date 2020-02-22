@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AddTodo from "./components/AddTodo"
-import TodoList from "./components/TodoList"
+import AddUgly from "./components/AddUgly"
+import UglyList from "./components/UglyList"
 import Footer from "./components/Footer"
-import { TodoContextProvider } from "./contexts/todos"
+import { UglyContextProvider } from "./contexts/ugly"
 
 
 
 function App() {
     return (
-        <TodoContextProvider>
-            <AddTodo />
-            <TodoList />
+        <UglyContextProvider>
+            <AddUgly />
+            <UglyList />
             <Footer />
-        </TodoContextProvider>
+        </UglyContextProvider>
     )
 }
 

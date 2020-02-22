@@ -1,8 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AddMovie from "./AddMovie"
+import MovieList from "./MovieList"
+//import Footer from "./components/Footer"
+import { MoviesContextProvider } from "./listContext"
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
+function App() {
+    return (
+        <MoviesContextProvider>
+            <AddMovie />
+            <MovieList />
+        </MoviesContextProvider>
+    )
+}
+
+const rootElement = document.getElementById('root');
+ReactDOM.render(<App />, rootElement)
 
