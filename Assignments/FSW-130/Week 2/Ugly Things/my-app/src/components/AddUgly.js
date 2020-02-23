@@ -7,7 +7,7 @@ const AddUgly = () => {
   const { dispatch } = useContext(UglyContext);
   const [nextUglyId, setIndex] = useState(1);
   const input = useFromInput("");
-  const { resetValue, ...inputProp } = input;
+  const { resetValue, inputProp, inputProp2, ...inputProp3 } = input;
   return (
     <div>
       <form
@@ -28,8 +28,13 @@ const AddUgly = () => {
           resetValue();
         }}
       >
-        <input {...inputProp} />
-        <Button type="submit">Add Ugly</Button>
+        <div className="formInput">
+          <input placeholder="Title"{...inputProp} />
+          <input placeholder="img URL"{...inputProp2} />
+          <input placeholder="Description" {...inputProp3} />             
+        </div>  
+        <hr />     
+        <Button className="button" type="submit">Add Ugly</Button> 
       </form>
     </div>
   );

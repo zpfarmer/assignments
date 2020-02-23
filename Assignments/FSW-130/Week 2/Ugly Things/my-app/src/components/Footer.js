@@ -19,7 +19,7 @@ const BUTTONS_FILTER = [
   },
   {
     id: 3,
-    caption: "Completed",
+    caption: "Deleted",
     type: CHANGE_FILTER,
     filter: VisibilityFilters.SHOW_COMPLETED
   }

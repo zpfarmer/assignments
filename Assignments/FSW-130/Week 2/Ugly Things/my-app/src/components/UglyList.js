@@ -8,11 +8,14 @@ const UglyList = () => {
   const { state } = useContext(UglyContext);
   const uglies = applyFilter(state);
   return (
-    <ul>
-      {uglies.map(ugly => (
-        <Ugly key={ugly.id} {...ugly} />
-      ))}
-    </ul>
+    <div>
+      <ul className="list">
+        {uglies.map(ugly => (
+          <Ugly key={ugly.id} {...ugly} />
+        ))}
+      </ul>
+    </div>
+    
   );
 };
 

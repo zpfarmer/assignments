@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue
+}
+
+.formInput {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.list {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
