@@ -1,0 +1,14 @@
+body {
+    background-color: sandybrown;
+}
+
+.stopwatch {
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
