@@ -17,6 +17,8 @@ const initialState = {
   timerTime: 0
 };
 
+//my redux actions
+
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case START_TIMER:
@@ -48,6 +50,8 @@ const reducer = (state = initialState, action) => {
   }
 };
 
+//create redux store
+
 const store = createStore(reducer);
 
 class Presentational extends React.Component {
@@ -56,6 +60,8 @@ class Presentational extends React.Component {
     this.props.stopTimer();
   };
 
+
+  //logic for the stopwatch
   render() {
     const { timerTime } = this.props;
     let milliseconds = ("0" + (Math.floor(timerTime / 10) % 100)).slice(-2);
@@ -113,6 +119,8 @@ const Container = connect(
   mapStateToProps,
   mapDispatchToProps
 )(Presentational);
+
+//rendering in browser
 
 class AppWrapper extends React.Component {
   render() {
