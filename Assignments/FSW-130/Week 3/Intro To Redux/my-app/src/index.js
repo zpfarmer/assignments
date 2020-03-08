@@ -7,7 +7,7 @@ import "./styles.css";
 
 const START_TIMER = "START_TIMER";
 const STOP_TIMER = "STOP_TIMER";
-const RESUME_TIMER = "RESUME_TIMER";
+//const RESUME_TIMER = "RESUME_TIMER";
 const RESET_TIMER = "RESET_TIMER"
 const TICK = "TICK";
 
