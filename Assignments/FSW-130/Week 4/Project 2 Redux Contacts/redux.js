@@ -85,5 +85,5 @@ store.dispatch(addNumber("555-555-5555"))
 store.dispatch(addName("Alex Williams"))
 store.dispatch(addNumber("555-555-5555"))
 
-//store.dispatch(deleteName("Alex Williams"))
-//store.dispatch(deleteNumber("555-555-5555"))
+store.dispatch(deleteName("Alex Williams"))
+store.dispatch(deleteNumber("555-555-5555"))
