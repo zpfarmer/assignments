@@ -28,7 +28,7 @@ const bounty = [
 
 //my get request to have my data display in Postman
 
-bounty.get("/", (req, res) => {
+app.get("/", (req, res) => {
     res.send(movies)
 })
 
