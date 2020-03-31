@@ -1,0 +1,44 @@
+html {
+    background-color: #CC5500;
+    background-size: cover;
+  }
+  
+  .top10 {
+    border-bottom: 5px solid black;
+    background: rgba(255, 255, 255, 0.411);
+  }
+
+  .home {
+    font-size: 5em;
+    text-decoration: underline;
+    color: rgb(68, 54, 54);
+    font-family: georgia;
+  }
+  
+  .mainHeading {
+    font-size: 5em;
+    text-decoration: underline;
+    color: rgb(68, 54, 54);
+    font-family: georgia;
+  }
+  
+  h1 {
+    color:darkblue ;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .mainHeading {
+      font-size: 2.5em;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    h1 {
+      font-size: 1em;
+    }
+  }
+  
