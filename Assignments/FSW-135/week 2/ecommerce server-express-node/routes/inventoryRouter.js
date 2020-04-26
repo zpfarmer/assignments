@@ -12,6 +12,8 @@ inventoryRouter.get("/", (req, res, next) => {
     })
 })
 
+
+
 inventoryRouter.post("/", (req, res, next) => {
     const newInventory = new Inventory(req.body)
     newInventory.save((err, savedInventory) => {
