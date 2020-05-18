@@ -15,7 +15,7 @@ app.get('/projects', function (req, res) {
     connection.getConnection(function (err, connection) {
         connection.query('SELECT * FROM projects', function (error, results, fields) {
             if (error) throw error; 
-            res.send(JSON.stringify(results))
+            res.send(results)
         })
     })
 })

@@ -1,17 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import React, { Component } from 'react';
+// import ReactDOM from 'react-dom';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// class Projects extends Component {
+//   constructor (props) {
+//     super(props);
+//     this.state = { results: [] };
+
+//     fetch('http://localhost:3000/projects')
+//     .then(response => response.json())
+//     .then(results => (this.setState({results})))
+//   }
+//   render() {
+//     return (<div>
+//       Hello World
+//       <ul>
+//         {this.state.results.map(results => <li>
+//           <h2>{results.title}</h2>
+//           <p>{results.description}</p>
+//         </li>)}
+//       </ul>
+//       </div>)
+//   }
+// }
+
+// ReactDOM.render(
+//  <Projects />,
+//   document.getElementById('root')
+// );
+
+
