@@ -10,3 +10,8 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+//correlated subquery
+//relational database management systems
+//existence test
+//implementation of sql
