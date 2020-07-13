@@ -19,4 +19,4 @@ def string_test(s):
 
 #creating a string to be used by the 'string_test" function
 #this string is what will be used to increment the counts
-string_test('Have a Great Day!')
+string_test('Have a WONDERFUL day!')

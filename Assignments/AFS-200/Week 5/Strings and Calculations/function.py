@@ -10,4 +10,4 @@ def max_of_two( x, y ):
 #uses the previous function to decide if x or y is greater
 def max_of_three( x, y, z ):
     return max_of_two( x, max_of_two( y, z ) )
-print (max_of_three(23, 41, 27))
+print (max_of_three(103, 7, 27))
