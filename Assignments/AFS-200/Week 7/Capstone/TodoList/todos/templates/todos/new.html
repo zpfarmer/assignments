@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Todo: {{todo.title}}{% endblock %}
+
+{% block content %}
+
+<h1>Add a todo</h1>
+
+<form method="post">
+    <table>
+         {{ form }}
+    </table>
+    {% csrf_token %}
+    <button type="submit">Create</button>
+</form>
+{% endblock %}

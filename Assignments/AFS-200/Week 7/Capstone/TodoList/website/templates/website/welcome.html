@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+        <h1>Welcome to my Todo Application using Python and Django!</h1>
+        <p>
+            This is my Capstone Project for the course
+            <em>AFS-200</em> with Bryan University
+        </p>
+
+        <h1>
+            Todos
+        </h1>
+        <ul>
+            {% for todo in todos %}
+            <li>
+                <a href="/todos/{{todo.id}}">
+                    {{ todo.title  }}
+                </a>
+            </li>
+            {% endfor %} 
+        </ul>
+        <a href="{% url 'locations' %}">Location List</a>
+   {% endblock %}

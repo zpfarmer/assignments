@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Todo: {{todo.title}}{% endblock %}
+
+{% block content %}
+        <h1>{{todo.title}}</h1>
+        <p>
+           This todo has been scheduled on {{todo.date}}, at
+           {{todo.start_time}} in <strong>{{todo.town}}</strong>
+        </p>
+        <a href="{% url 'welcome' %}">Home</a>
+{% endblock %}
