@@ -20,3 +20,9 @@ ExpiresDefault "access plus 2 days"
                                   "text/html" \
                                   "text/css" \
 # COMPRESSING 
+
+# URL REDIRECT
+
+Redirect 301 /old/file.html https://www.w3schools.com/
+
+# URL REDIRECT
