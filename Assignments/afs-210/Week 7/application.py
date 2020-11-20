@@ -11,6 +11,6 @@ plt.bar(positions, scores, width=0.5)
 plt.xticks(positions, names, rotation=90)
 plt.ylabel("Active Cases in Thousands")
 plt.xlabel("Provice/State")
-plt.title("State wise recovery cases of COVID-19 in USA")
+plt.title("State wide recovery cases of COVID-19 in USA")
 
 plt.show()
