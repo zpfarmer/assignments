@@ -1,16 +1,30 @@
-var expect = require('chai').expect
+let expect = require('chai').expect
+let fizzbuzz = require('../Fizzbuzzkata.js');
 
-function fizzBuzz(value){
-    return '1';
-}
 
-it('return 1 with 1 passed in', function() {
-    fizzBuzz(1)
+describe('fizzbuzz solver', () => {
+
+    it('should return "" if n is not divisible by 3 or 5', function(){
+        expect(fizzbuzz.solve(1)).to.equal("");
+        expect(fizzbuzz.solve(7)).to.equal("");
+        expect(fizzbuzz.solve(11)).to.equal("");
+    })
+
+    it('should return "fizz" if n is divisible by 3 but not 5', function() {
+        expect(fizzbuzz.solve(3)).to.equal("fizz");
+        expect(fizzbuzz.solve(6)).to.equal("fizz");
+        expect(fizzbuzz.solve(9)).to.equal("fizz");
+    })
+
+    it('should return "buzz" if n is divisible by 5 but not 3', function() {
+        expect(fizzbuzz.solve(5)).to.equal("buzz");
+        expect(fizzbuzz.solve(10)).to.equal("buzz");
+        expect(fizzbuzz.solve(20)).to.equal("buzz");
+    })
+
+    it('should return "fizz buzz" if n is divisible by 3 and 5', function() {
+        expect(fizzbuzz.solve(3*5)).to.equal("fizzbuzz");
+        expect(fizzbuzz.solve(30)).to.equal("fizzbuzz");
+        expect(fizzbuzz.solve(3*5*7)).to.equal("fizzbuzz");
+    })
 })
-
-function fizzBuzz(value){
-    return '2';
-}
-
-it('return 2 with 2 passed in', function() {
-fizzBuzz(2)})
